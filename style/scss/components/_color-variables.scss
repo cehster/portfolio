@@ -1,5 +1,26 @@
 // Google Color Palette defined: http://www.google.com/design/spec/style/color.html
 
+// Custom color scheme
+$main-brand: (
+  "base":rgba(139, 87, 82, 1)
+);
+
+$dark-accent: (
+  "base": rgba(129, 119, 106, 1)
+);
+
+$dark-shade: (
+  "base": rgba(50, 42, 41, 1)
+);
+
+$light-accent: (
+  "base": rgba(172, 148, 112, 1)
+);
+
+$light-shade: (
+  "base": rgba(239, 237, 235, 1)
+);
+
 $materialize-red: (
   "base":       #e51c23,
   "lighten-5":  #fdeaeb,
@@ -331,6 +352,11 @@ $shades: (
 );
 
 $colors: (
+  "main-brand": $main-brand,
+  "dark-accent": $dark-accent,
+  "dark-shade": $dark-shade,
+  "light-accent": $light-accent,
+  "light-shade": $light-shade,
   "materialize-red": $materialize-red,
   "red": $red,
   "pink": $pink,

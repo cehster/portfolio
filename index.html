@@ -15,47 +15,138 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="scripts/materialize.js"></script>
+ 
 
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="style/materialize.css">
     <link rel="stylesheet" href="style/port_main.css">
     
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li id="nav_title">Chris Ehster</li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="https://wagtail.io/" target="_blank">Blog</a></li>
-        </ul>
-    </nav>
+    <section id="hero" class="z-depth-2">
+        <!-- Hero Image --> 
+        <div class="parallax-container">
+             <div class="parallax"><img src="img/code_back.png" alt="Hero image, shot of code in a text editor."></div>
+             <div class="hero-wrapper">
+                <h1 class="center-align hero-title">Chris Ehster</h1>
+                <p class="center-align" style="color:white;">Developer | Creator | Leader</p>                 
+             </div>
+
+        </div>
+     </section>
+
+    <div class="nav-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" id="myLogo"><img src="img/sig.png" alt="Signature" class="responsive-img hero-sig"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://wagtail.io/" target="_blank">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <main>
-
         <section id="about">
-            <!-- About Me -->
-                        
-            <a class="waves-effect waves-light btn">button</a>
-            <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
-            <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
-                    
-        </section>
+            <!-- About Me -->  
+            <div class="container row" style="padding-top: 50px;">
+                <div class="col s12 m6">
+                    <img src="img/me.jpg" alt="Professional headshot for Chris Ehster" class="circle responsive-img z-depth-3">
+                </div>
+                <div class="col s12 m6">
+                    <h2>About Me</h2>
+                    <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada odio sit amet erat mollis lacinia a eget ligula. Suspendisse tempus metus sed porta facilisis. Proin varius ex sit amet ex dapibus, quis lobortis mi egestas. Vestibulum vestibulum lacus est, at vestibulum risus ornare eu. Fusce urna magna, ullamcorper at quam id, interdum elementum arcu. Phasellus et tristique ante. Cras at ipsum sit amet quam malesuada rhoncus. </p>
+                    <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada odio sit amet erat mollis lacinia a eget ligula. Suspendisse tempus metus sed porta facilisis. Proin varius ex sit amet ex dapibus, quis lobortis mi egestas. Vestibulum vestibulum lacus est, at vestibulum risus ornare eu. Fusce urna magna, ullamcorper at quam id, interdum elementum arcu. Phasellus et tristique ante. Cras at ipsum sit amet quam malesuada rhoncus.</p>
+                </div>
+            </div>
+        </section> <!-- End About Section -->
 
-        <section id="projects">
-            <!-- Projects -->
+        <section id="work" class="z-depth-2">
+
         </section>
 
         <section id="contact">
             <!-- Contact -->
-        </section>
+            <div class="container" style="padding-top: 50px;">
+                <div class="row">
+
+                    <div class="col s12 m6">
+                        <h1>Get In Touch</h1>
+                        <p class="flow-text">Use the email form provided or contact me on <a href="https://www.linkedin.com/in/cehster/">LinkedIn</a>!</p>
+                    </div>
+
+                    <div class="col s12 m6">
+                        <form action="post">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input id="email" type="text" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Your message</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- End Contact Section -->
 
     </main>
 
-    <footer>
-        <!-- Relevant links & nav items (repeated in footer for better SEO) -->
-    </footer>
-
+    <!-- Footer -->
+    <div id="footer-small">
+        <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l4 m12">
+                  <img src="img/laugh.jpg" alt="Chris Ehster" class="circle responsive-img z-depth-3 footer-image" style="max-width: 275px;">
+                </div>
+                <div class="col l4 m12">
+                  <h5 class="white-text"><a href="#" style="color:inherit;">Home</a></h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#about">About Me</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#work">Experience</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#contact">Contact</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://wagtail.io/" target="_blank">Blog</a></li>
+                  </ul>
+                </div>
+                <div class="col l4 m12">
+                    <h5 class="white-text">Follow Me</h5>
+                    <ul>
+                        <li>Social 1</li>
+                        <li>Social 2</li>
+                        <li>Social 3</li>
+                        <li>Social 4</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2020 Copyright by Chris Ehster
+              </div>
+            </div>
+        </footer>        
+    </div> <!-- End Footer -->
 </body>
 </html>

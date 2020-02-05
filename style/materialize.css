@@ -1,4 +1,47 @@
 @charset "UTF-8";
+/* Coolors Exported Palette - coolors.co/322a29-81776a-8b5752-ac9470-efedeb */
+/* HSL */
+/* RGB */
+.main-brand {
+  background-color: #8b5752 !important;
+}
+
+.main-brand-text {
+  color: #8b5752 !important;
+}
+
+.dark-accent {
+  background-color: #81776a !important;
+}
+
+.dark-accent-text {
+  color: #81776a !important;
+}
+
+.dark-shade {
+  background-color: #322a29 !important;
+}
+
+.dark-shade-text {
+  color: #322a29 !important;
+}
+
+.light-accent {
+  background-color: #ac9470 !important;
+}
+
+.light-accent-text {
+  color: #ac9470 !important;
+}
+
+.light-shade {
+  background-color: #efedeb !important;
+}
+
+.light-shade-text {
+  color: #efedeb !important;
+}
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -2657,7 +2700,7 @@ a {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #ee6e73;
+  border-left: 5px solid #8b5752;
 }
 
 i {
@@ -2708,7 +2751,7 @@ video.responsive-video {
   color: #fff;
 }
 .pagination li.active {
-  background-color: #ee6e73;
+  background-color: #8b5752;
 }
 .pagination li.disabled a {
   cursor: default;
@@ -2894,7 +2937,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #8b5752;
 }
 .page-footer .footer-copyright {
   overflow: hidden;
@@ -4075,7 +4118,7 @@ table span.badge {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #8b5752;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4724,7 +4767,7 @@ small {
   text-transform: uppercase;
 }
 .tabs .tab a {
-  color: rgba(238, 110, 115, 0.7);
+  color: rgba(139, 87, 82, 0.7);
   display: block;
   width: 100%;
   height: 100%;
@@ -4735,22 +4778,22 @@ small {
   transition: color 0.28s ease, background-color 0.28s ease;
 }
 .tabs .tab a:focus, .tabs .tab a:focus.active {
-  background-color: rgba(246, 178, 181, 0.2);
+  background-color: rgba(176, 126, 121, 0.2);
   outline: none;
 }
 .tabs .tab a:hover, .tabs .tab a.active {
   background-color: transparent;
-  color: #ee6e73;
+  color: #8b5752;
 }
 .tabs .tab.disabled a, .tabs .tab.disabled a:hover {
-  color: rgba(238, 110, 115, 0.4);
+  color: rgba(139, 87, 82, 0.4);
   cursor: default;
 }
 .tabs .indicator {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #f6b2b5;
+  background-color: #b07e79;
   will-change: left, right;
 }
 
@@ -6796,12 +6839,12 @@ input[type=range]::-ms-thumb {
 .table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 15px;
-  border-left: 1px solid #ee6e73;
+  border-left: 1px solid #8b5752;
 }
 .table-of-contents a.active {
   font-weight: 500;
   padding-left: 14px;
-  border-left: 2px solid #ee6e73;
+  border-left: 2px solid #8b5752;
 }
 
 .sidenav {
@@ -6966,7 +7009,7 @@ input[type=range]::-ms-thumb {
 }
 .sidenav .collapsible-body > ul:not(.collapsible) > li.active,
 .sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active {
-  background-color: #ee6e73;
+  background-color: #8b5752;
 }
 .sidenav .collapsible-body > ul:not(.collapsible) > li.active a,
 .sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active a {
@@ -7651,7 +7694,7 @@ input[type=range]::-ms-thumb {
   position: absolute;
   font-size: 1rem;
   border-radius: 50%;
-  background-color: #ee6e73;
+  background-color: #8b5752;
   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.14), 0 10px 50px 0 rgba(0, 0, 0, 0.12), 0 30px 10px -20px rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;

@@ -1,8 +1,42 @@
-nav{
-    ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: inline;
+// Custom Element Size
+section {
+    min-height: 500px;
+}
+
+.hero-sig {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.hero-wrapper {
+    padding-top: 100px;
+}
+
+#footer-small{
+    max-height: 200px;
+}
+
+
+// Custom Color Palatte
+$main-brand: rgba(139, 87, 82, 1);
+$dark-accent: rgba(129, 119, 106, 1);
+$dark-shade: rgba(50, 42, 41, 1);
+$light-accent: rgba(172, 148, 112, 1);
+$light-shade: rgba(239, 237, 235, 1);
+
+// Color Application
+text {
+    color: $light-shade;
+
+    #about{
+        color: $dark-accent;
     }
+
+}
+.hero-title {
+    color: $light-shade;
+}
+
+#work {
+    background-color: $dark-shade;
 }
