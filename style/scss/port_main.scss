@@ -3,6 +3,10 @@ section {
     min-height: 500px;
 }
 
+#work {
+    min-height: 600px;
+}
+
 .hero-sig {
     padding-top: 10px;
     padding-left: 15px;
@@ -10,6 +14,10 @@ section {
 
 .hero-wrapper {
     padding-top: 100px;
+}
+
+.work-cards {
+    padding-top: 20px;
 }
 
 #footer-small{
@@ -27,16 +35,11 @@ $light-shade: rgba(239, 237, 235, 1);
 // Color Application
 text {
     color: $light-shade;
-
-    #about{
-        color: $dark-accent;
-    }
-
 }
 .hero-title {
     color: $light-shade;
 }
 
 #work {
-    background-color: $dark-shade;
+    background-color: $main-brand;
 }

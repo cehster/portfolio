@@ -2,6 +2,10 @@ section {
   min-height: 500px;
 }
 
+#work {
+  min-height: 600px;
+}
+
 .hero-sig {
   padding-top: 10px;
   padding-left: 15px;
@@ -11,6 +15,10 @@ section {
   padding-top: 100px;
 }
 
+.work-cards {
+  padding-top: 20px;
+}
+
 #footer-small {
   max-height: 200px;
 }
@@ -18,16 +26,13 @@ section {
 text {
   color: #efedeb;
 }
-text #about {
-  color: #81776a;
-}
 
 .hero-title {
   color: #efedeb;
 }
 
 #work {
-  background-color: #322a29;
+  background-color: #8b5752;
 }
 
 /*# sourceMappingURL=port_main.css.map */
